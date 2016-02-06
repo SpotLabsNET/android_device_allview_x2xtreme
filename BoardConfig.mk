@@ -37,6 +37,14 @@ TARGET_CPU_CORTEX_A53 := true
 
 TARGET_BOOTLOADER_BOARD_NAME := X2_Soul_Xtreme
 
+#TWRP - only if you have ../bootable/recovery replaced with TWRP source
+TARGET_RECOVERY_INITRC := $(LOCAL_PATH)/root/init.rc
+#Don't change resolution as it won't compile twrp -> that is highest possible
+DEVICE_RESOLUTION := 1080x1920
+RECOVERY_GRAPHICS_USE_LINELENGTH := true 
+TARGET_PREBUILT_RECOVERY_KERNEL := $(LOCAL_PATH)/kernel
+
+
 # MTK Hardware
 BOARD_HAS_MTK_HARDWARE := true
 MTK_HARDWARE := true
