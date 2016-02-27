@@ -4,7 +4,7 @@
 
 Works with Blu Pure XL & Gionee Elife E8 & Condor A100 (and other clones I don't know they exist).
 
-For full cm-12.1 device go at: https://github.com/bemolxd
+For full cm-12.1 device go at: https://github.com/bemolxd/android_device_allview_x2xtreme/tree/cm12.1
 
 ##Phone specs:
 
