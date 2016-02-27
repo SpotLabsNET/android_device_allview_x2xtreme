@@ -1,13 +1,10 @@
 #Starting BoardConifg.mk for x2xtreme.
-<<<<<<< HEAD
 #Everything written here is fo Allview X2 Soul Xtreme (known as Blu Pure XL or Gionee Elife E8 or Condor Allure A100).
 #by Bartosz Bem aka bemolxd (or bemolx - on XDA)
-=======
 #Everything written here is fo Allview X2 Soul Xtreme (known as Blu Pure XL or Gionee Elife E8).
->>>>>>> d23dafbeb7d03468f081533350849293aeb36460
 #Check every line before staring your build machine!
 #Good luck!
-#
+
 
 #Your path etc.
 LOCAL_PATH := device/allview/x2xtreme
@@ -36,18 +33,13 @@ TARGET_BOARD_SUFFIX := _64
 TARGET_USES_64_BIT_BINDER := true
 TARGET_IS_64_BIT := true
 
-<<<<<<< HEAD
-#TWRP
-=======
 #TWRP - only if you have ../bootable/recovery replaced with TWRP source
->>>>>>> d23dafbeb7d03468f081533350849293aeb36460
 TW_NO_USB_STORAGE := false
 TW_NEVER_UNMOUNT_SYSTEM := true
 TARGET_CPU_SMP := true
 TW_NO_SCREEN_BLANK := true
 RECOVERY_SDCARD_ON_DATA := true
 BOARD_HAS_NO_REAL_SDCARD := true
-<<<<<<< HEAD
 #--------------------------------------------------#
 #Seems that those below are not necessary - testing#
 TW_INTERNAL_STORAGE_PATH := "/data/media/0"        #
@@ -55,13 +47,6 @@ TW_INTERNAL_STORAGE_MOUNT_POINT := "data"          #
 TW_EXTERNAL_STORAGE_PATH := "/external_sd"         #
 TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"   #
 #--------------------------------------------------#
-=======
-#Seems that those below are not needed
-#TW_INTERNAL_STORAGE_PATH := "/data/media/0"
-#TW_INTERNAL_STORAGE_MOUNT_POINT := "data"
-#TW_EXTERNAL_STORAGE_PATH := '/external_sd"
-#TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
->>>>>>> d23dafbeb7d03468f081533350849293aeb36460
 TARGET_RECOVERY_INITRC := $(LOCAL_PATH)/root/init.rc
 DEVICE_RESOLUTION := 1080x1920
 RECOVERY_GRAPHICS_USE_LINELENGTH := true 
@@ -92,11 +77,7 @@ TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 BOARD_EGL_WORKAROUND_BUG_10194508 := true
 
-<<<<<<< HEAD
-#Partitions
-=======
 #Partitions - before building check in your device's /proc/mtd  !!!
->>>>>>> d23dafbeb7d03468f081533350849293aeb36460
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16777216
@@ -108,11 +89,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_HAS_MTK_HARDWARE := true
 MTK_HARDWARE := true
 
-<<<<<<< HEAD
 #Recovery related (just don't change that)
-=======
-#Recovery related - disabled for building TWRP
->>>>>>> d23dafbeb7d03468f081533350849293aeb36460
 #BOARD_HAS_NO_SELECT_BUTTON := true
 #BOARD_RECOVERY_SWIPE := true
 #BOARD_SUPPRESS_EMMC_WIPE := true
